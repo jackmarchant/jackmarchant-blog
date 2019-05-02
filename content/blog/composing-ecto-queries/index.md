@@ -1,6 +1,5 @@
 ---
 title: Composing Ecto Queries
-published_date: 2018-07-06 18:00:00
 date: "2018-07-06T09:00:00.000Z"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: A Comparison of Elixir Supervision Trees and React Component Trees 
-published_date: 2019-02-06 12:00:00
 date: "2018-02-06T09:00:00.000Z"
 ---
 A Supervision Tree in [Elixir](https://elixir-lang.org/) has quite a number of parallels to how developers using React think about a component tree. In this article I will attempt to describe parallel concepts between the two - and if you've used React and are interested in functional programming, it might prompt you to take a look at Elixir.

@@ -1,6 +1,5 @@
 ---
 title: Elixir Pattern Matching in a nutshell
-published_date: 2017-08-15 20:08:00
 date: "2017-08-15T20:00:00.000Z"
 ---
 
