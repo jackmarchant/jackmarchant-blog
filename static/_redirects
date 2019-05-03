@@ -1,1 +1,17 @@
 /articles/streaming-large-datasets-in-elixir /streaming-datasets 301
+/articles/using-protocols-to-decouple-implementation-details /protocols 301
+/articles/you-might-not-need-a-genserver /you-might-not-need-a-genserver 301
+/articles/lonestar-elixir-conf-2019-highlights /lonestar-elixir-2019 301
+/articles/understanding-concurrency-in-elixir /understanding-concurrency 301
+/articles/integrating-third-party-libraries-in-elixir /best-practices-third-party-integrations 301
+/articles/using-a-genserver-to-handle-asynchronous-concurrent-tasks /genserver-async-concurrent-tasks 301
+/articles/composing-ecto-queries /composing-ecto-queries 301
+/articles/add-docker-to-elixir-phoenix-projects /exdocker 301
+/articles/a-comparison-of-elixir-supervision-trees-and-react-component-trees /elixir-supervision-trees 301
+/articles/offset-and-cursor-pagination-explained /offset-cursor-pagination 301
+/articles/working-with-tasks-in-elixir /working-with-tasks 301
+/articles/composing-elixir-plugs-in-a-phoenix-application /composing-plugs 301
+/articles / 301
+/articles/implement-a-queue-in-elixir /elixir-queues 301
+/articles/pattern-matching-in-elixir /pattern-matching-elixir 301
+/articles/first-impressions-of-elixir /first-impressions-elixir 301
