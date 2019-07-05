@@ -3,8 +3,6 @@ title: The Facade Pattern
 date: "2019-07-05T09:00:00.000Z"
 ---
 
-# The Facade Pattern
-
 Design Patterns are ways to build applications with abstractions that decouple sections of a codebase with the purpose of making a change to the code later a much easier process. 
 They are a set of blueprints for solving specific sets of problems, and hopefully don’t over-complicate. 
 
@@ -24,5 +22,35 @@ If you’ve ever integrated a third party library into your application you may 
 Rather than having to think about each of these requirements whenever a customer makes a purchase, we can wrap this functionality in a specific class created for the purpose of making a purchase, then the construction of the internal objects in the application are centralised and consistent regardless of the type of purchase. 
 This type of abstraction hides away some of the complicated parts of the process behind a friendly interface that can be used throughout the application with relative ease. 
 It is this interface that can be described as a Facade. 
+
+```php
+class Customer {
+  public function __construct(array $details) {}
+}
+class PaymentService implements PaymentGateway {
+  public function createCustomer(Customer $customer) {}
+  public function createCharge(Customer $customer) {}
+}
+class Mailer {
+  public static function send(string $to) {}
+}
+
+
+class PaymentFacade 
+{
+   public static function purchase(array $customerDetails, Item $item)
+   {
+      $customer = new Customer($customerDetails);
+      $service = new PaymentService;
+      $result = $service->createCustomer($customer)->createCharge($customer, $item->price);
+
+      if ($result) {
+        Mailer::send($customer->email);
+      }
+
+      return $customer;
+   }
+}
+```
 
 For me, the Facade Pattern was a bit confusing so I took some time to figure out exactly why and when it was used. To really assist in learning about design patterns in software, I would recommend reading popular projects source code so you can see how certain patterns are used - then you’ll be able to identify it in your own code. 
