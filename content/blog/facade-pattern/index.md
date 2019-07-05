@@ -3,17 +3,17 @@ title: The Facade Pattern
 date: "2019-07-05T09:00:00.000Z"
 ---
 
-Design Patterns are ways to build applications with abstractions that decouple sections of a codebase with the purpose of making a change to the code later a much easier process. 
+Design Patterns allow you to create abstractions that decouple sections of a codebase with the purpose of making a change to the code later a much easier process. 
 They are a set of blueprints for solving specific sets of problems, and hopefully don’t over-complicate. 
 
 There’s nothing worse than seeing an abstraction in a codebase that actually makes it harder to understand than without the abstraction.
-Of course, it’s a trade off but in most cases I’d say it’s a good rule of thumb for knowing when to git reset. 
+Of course, it’s a trade off but often times an easy way to see when you should create an abstraction is when you start to see a pattern or repetition in the behaviours in your code - not necessarily just duplicated code. 
 
 I’ve been digging in to some design patterns lately, and one that I had to research again was the Facade Pattern. 
 If you don’t know what it is, you have probably already seen or used it many times before, but after reading this article, hopefully you’ll be able to identify the Facade Pattern in your own code. 
 
 Facade literally means a deceptive outward appearance, and that’s potentially the wrong angle for thinking about solving a problem with software. 
-When you create a new function, it’s unlikely you’ll name it anything other than exactly what the function does. Naming things is hard in itself but should at least be the aim. 
+When you create a new function, it’s unlikely you’ll name it anything other than exactly what the function does. Naming things is hard in itself but that should at least be the aim. 
 
 The Facade Pattern used in your code should be a simple interface for doing something more complicated. It should group related things together to make it easier to use.
 
