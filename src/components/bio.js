@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who builds apps with Elixir, GraphQL and React.
+              Written by <strong>{author}</strong>, a Software Engineer who writes about writing the code.
               {` `}
               You should follow him on
               {` `}
