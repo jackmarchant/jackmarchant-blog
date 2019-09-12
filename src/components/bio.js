@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>, a Software Engineer who writes about writing the code.
+              Written by <strong>{author}</strong>, a Software Engineer who writes about writing code.
               {` `}
               You should follow him on
               {` `}
